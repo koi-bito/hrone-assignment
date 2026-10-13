@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Testing / Scratch artifacts
+test_helpers.py
+sample_seed.py
+sample_data/
+scratch/
+.pytest_cache/
